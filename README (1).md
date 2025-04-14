@@ -37,7 +37,6 @@ minikube start --cpus=2 --memory=4096
 
 ### 2. Build Docker Image
 ```bash
-eval $(minikube docker-env)
 docker build -t nodeapp:1.0 ./app
 ```
 
@@ -92,29 +91,4 @@ kubectl logs <pod-name>
 
 ---
 
-## 📸 Screenshots
 
-Include screenshots of:
-- `kubectl get pods`
-- `kubectl get services`
-- `curl` result
-- `kubectl scale`
-- `kubectl describe`
-- `kubectl logs`
-
----
-
-## ✅ Deliverables
-
-- `deployment.yaml`
-- `service.yaml`
-- Screenshots
-- This README
-
----
-
-## 🙌 Author
-
-Your Name – [@yourgithub](https://github.com/yourgithub)
-
----
